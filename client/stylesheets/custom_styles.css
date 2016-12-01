@@ -1,0 +1,205 @@
+@font-face {
+  font-family:'LatoLight';
+  src:url('/fonts/Lato-Light.ttf');
+}
+@font-face {
+  font-family:'LatoBlack';
+  src:url('/fonts/Lato-Black.ttf');
+}
+@font-face {
+  font-family:'LatoRegular';
+  src:url('/fonts/Lato-Regular.ttf');
+}
+@font-face {
+  font-family:'RSLight';
+  src:url('/fonts/RobotoSlab-Light.ttf');
+}
+@font-face {
+  font-family:'RSThin';
+  src:url('/fonts/RobotoSlab-Thin.ttf');
+}
+@font-face {
+  font-family:'RSRegular';
+  src:url('/fonts/RobotoSlab-Regular.ttf');
+}
+@font-face {
+  font-family:'RSBold';
+  src:url('/fonts/RobotoSlab-Bold.ttf');
+}
+
+.home_container { min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;padding-bottom:50px; }
+.home_heading { font-family:'LatoBlack';text-align:center;font-size:5.0em;display:iinline-block;margin:0 0 5px 0;color:#191919; }
+.home_subheading { margin:0 0 15px 0;font-family:'RSThin';font-size:2.0em;letter-spacing:0.13em;border-bottom:2px solid #222;border-top:2px solid #222;line-height:1;padding:5px 0;text-transform: uppercase;color:#333; }
+
+.btn-rust {
+  color: #E74C3C;
+  background-color: transparent;;
+  border-color: #E74C3C;
+  border-width: 2px;
+  text-transform:uppercase;
+  font-family:'LatoRegular';
+}
+.btn-rust:focus,
+.btn-rust.focus {
+  color: #fff;
+  background-color: #E74C3C;
+  border-color: #E74C3C;
+}
+.btn-rust:hover {
+  color: #fff;
+  background-color: #E74C3C;
+  border-color: #E74C3C;
+  transition: background-color 0.5s ease;
+  transition: color 0.5s ease;
+}
+.btn-rust:active,
+.btn-rust.active,
+.open > .dropdown-toggle.btn-rust {
+  color: #fff;
+  background-color: #E74C3C;
+  border-color: #E74C3C;
+}
+.btn-rust:active:hover,
+.btn-rust.active:hover,
+.open > .dropdown-toggle.btn-rust:hover,
+.btn-rust:active:focus,
+.btn-rust.active:focus,
+.open > .dropdown-toggle.btn-rust:focus,
+.btn-rust:active.focus,
+.btn-rust.active.focus,
+.open > .dropdown-toggle.btn-rust.focus {
+  color: #fff;
+  background-color: #E74C3C;
+  border-color: #E74C3C;
+}
+.btn-rust:active,
+.btn-rust.active,
+.open > .dropdown-toggle.btn-rust {
+  background-image: none;
+}
+.btn-rust.disabled:hover,
+.btn-rust[disabled]:hover,
+fieldset[disabled] .btn-rust:hover,
+.btn-rust.disabled:focus,
+.btn-rust[disabled]:focus,
+fieldset[disabled] .btn-rust:focus,
+.btn-rust.disabled.focus,
+.btn-rust[disabled].focus,
+fieldset[disabled] .btn-rust.focus {
+  background-color: #E74C3C;
+  border-color: #E74C3C;
+}
+.btn-rust .badge {
+  color: #fff;
+  background-color: #333;
+}
+
+/* #7F8586 */
+
+.btn-grey {
+  color: #7F8586;
+  background-color: transparent;;
+  border-color: #7F8586;
+  border-width: 2px;
+  text-transform:uppercase;
+  font-family:'LatoRegular';
+}
+.btn-grey:focus,
+.btn-grey.focus {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #8c8c8c;
+}
+.btn-grey:hover {
+  color: #fff;
+  background-color: #7F8586;
+  border-color: #7F8586;
+  transition: background-color 0.5s ease;
+  transition: color 0.5s ease;
+}
+.btn-grey:active,
+.btn-grey.active,
+.open > .dropdown-toggle.btn-grey {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+.btn-grey:active:hover,
+.btn-grey.active:hover,
+.open > .dropdown-toggle.btn-grey:hover,
+.btn-grey:active:focus,
+.btn-grey.active:focus,
+.open > .dropdown-toggle.btn-grey:focus,
+.btn-grey:active.focus,
+.btn-grey.active.focus,
+.open > .dropdown-toggle.btn-grey.focus {
+  color: #333;
+  background-color: #d4d4d4;
+  border-color: #8c8c8c;
+}
+.btn-grey:active,
+.btn-grey.active,
+.open > .dropdown-toggle.btn-grey {
+  background-image: none;
+}
+.btn-grey.disabled:hover,
+.btn-grey[disabled]:hover,
+fieldset[disabled] .btn-grey:hover,
+.btn-grey.disabled:focus,
+.btn-grey[disabled]:focus,
+fieldset[disabled] .btn-grey:focus,
+.btn-grey.disabled.focus,
+.btn-grey[disabled].focus,
+fieldset[disabled] .btn-grey.focus {
+  background-color: #fff;
+  border-color: #ccc;
+}
+.btn-grey .badge {
+  color: #fff;
+  background-color: #333;
+}
+
+.container_alt { width:850px;margin-left:auto;margin-right:auto; }
+
+.logo_img { width:120px;margin-bottom:-10px; }
+
+.profile_img { width:150px; }
+
+.icon_img { width:150px;border-radius:20px; }
+.icon_img_bordered { width:150px;border-radius:20px;border:1px solid #ddd; }
+
+.resume_top { width:850px;margin:0 auto;border-bottom:1px solid #ddd;padding:30px; }
+
+.resume_about { width:850px;margin:0 auto;border-bottom:1px solid #ddd;padding:0 0 30px 0; }
+.resume_work { width:850px;margin:0 auto;border-bottom:1px solid #ddd;padding:0 0 30px 0; }
+.resume_tech { width:850px;margin:0 auto;border-bottom:1px solid #ddd;padding:0 0 30px 0; }
+
+.about_img { width:80%; }
+.about_sub { margin:10px 0 0 0;text-align:center;font-family:'LatoBlack';font-size:1.75em; }
+.about_text { margin:0 0 10px 0;text-align:center;font-family:'RSLight';font-size:1.2em; }
+
+.header_name { font-family:'LatoBlack';font-size:3.5em;text-align:center;margin:0;line-height: 1.1; }
+.header_detail { font-family:'RSLight';font-size:1.2em;text-align:center;margin:0; }
+
+.resume_container { width:850px;margin:0 auto; }
+.work_section { clear:both;margin:50px 0; }
+.work_section_btm { clear:both;margin:50px 0 0 0; }
+.work_content { margin-left:180px; }
+.image_container {float:left;margin:0;  }
+.resume_header { font-family:'RSLight';font-size:2.5em;text-align:center;margin:30px 0; }
+.work_subheader { font-family:'LatoBlack';font-size:1.3em;margin:0 0 0 0; }
+.work_text { font-family:'RSLight';font-size:1.2em;margin:0 0 10px 0; }
+.project_name { font-family:'LatoBlack';font-size:2.3em;margin:0 0 3px 0;line-height:1.1; }
+
+.tech_subhead { font-family:'LatoBlack';font-size:1.7em;margin:0;line-height:1.1; }
+.tech_subhead2 { font-family:'LatoBlack';font-size:1.7em;margin:15px 0 0 0;line-height:1.1; }
+.tech_text { font-family:'RSLight';font-size:1.2em;margin:0; }
+.tech_text_sub { font-family:'RSRegular';font-size:1.2em;margin:0; }
+.tech_text_indent { font-family:'RSLight';font-size:1.1em;margin:0 0 6px 10px; }
+.tech_description { font-family:'RSLight';font-size:1.0em;margin:0 0 10px 0; }
+.tech_major { font-family:'RSLight';font-size:1.0em;margin:0 0 6px 0; }
+.tech_title { font-family:'RSBold';font-size:1.0em;margin:0; }
+.tech_text_btm { font-family:'RSLight';font-size:1.2em;margin:0 0 10px 0; }
+
+.footer { padding:20px 0; }
+.footer_text { font-family:'RSLight';font-size:1.0em;margin:0;text-align:center; }
