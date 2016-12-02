@@ -24,7 +24,7 @@
   // Location of app (local directory). This can reference '~' as the users home directory.
   // i.e., "app": ".",
   // This is the same as the line below.
-  "app": "/Users/arunoda/Meteor/my-app",
+  "app": ".",
 
   // Configure environment
   // ROOT_URL must be set to your correct domain (https or http)
