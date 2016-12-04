@@ -73,7 +73,7 @@ export default class Resume extends Component {
             <div className="work_content">
               <p className="project_name">Untie the Knot</p>
               <p className="work_subheader">Project Details:</p>
-              <p className="work_text">Client was seeking a site that woulld easily market services to potential clients the process of an uncontested divorce. The goal was to create an application that would give the user all information needed to streamline the process and lower costs for all parties involved.</p>
+              <p className="work_text">Client was seeking a site that would easily market services to potential clients the process of an uncontested divorce. The goal was to create an application that would give the user all information needed to streamline the process and lower costs for all parties involved.</p>
               <p className="work_subheader">Technologies Used:</p>
               <p className="work_text">Sketch for design; Ruby on Rails and Bootstrap for development</p>
               <p className="work_text"><a href="http://untietheknottn.com">View Site</a></p>
@@ -88,7 +88,7 @@ export default class Resume extends Component {
             <div className="work_content">
               <p className="project_name">Matumaini's Mission</p>
               <p className="work_subheader">Project Details:</p>
-              <p className="work_text">Clients was starting a mininistry raising funds to support orphans in Africa. The site needed to clearly convey what they were seeking to accomplish and attract donors.</p>
+              <p className="work_text">Client was starting a mininistry raising funds to support orphans in Africa. The site needed to clearly convey what they were seeking to accomplish and attract donors.</p>
               <p className="work_subheader">Technologies Used:</p>
               <p className="work_text">Sketch for design; Ruby on Rails and Bootstrap for development</p>
               <p className="work_text"><a href="http://matumainismission.org">View Site</a></p>
