@@ -49,7 +49,7 @@ export default class Resume extends Component {
               <p className="work_text">LifeWay wanted an app developed for a piece of curriculum already in place in print. I took the concepts used in print and applied them in the design of the app. Then, based on the way the user would use the app, I completed the development and deployment of the app.</p>
               <p className="work_subheader">Technologies Used:</p>
               <p className="work_text">Sketch for design; React Native for development</p>
-              <p className="work_text"><a href="http://itunes.apple.com/us/app/levels-of-biblical-learning/id1140252416?mt=8">View in the App Store</a></p>
+              <p className="work_text"><a href="http://itunes.apple.com/us/app/levels-of-biblical-learning/id1140252416?mt=8" target="_blank">View in the App Store</a></p>
             </div>
           </div>
 
@@ -76,7 +76,7 @@ export default class Resume extends Component {
               <p className="work_text">Client was seeking a site that would easily market services to potential clients the process of an uncontested divorce. The goal was to create an application that would give the user all information needed to streamline the process and lower costs for all parties involved.</p>
               <p className="work_subheader">Technologies Used:</p>
               <p className="work_text">Sketch for design; Ruby on Rails and Bootstrap for development</p>
-              <p className="work_text"><a href="http://untietheknottn.com">View Site</a></p>
+              <p className="work_text"><a href="http://untietheknottn.com" target="_blank">View Site</a></p>
             </div>
           </div>
 
@@ -91,7 +91,7 @@ export default class Resume extends Component {
               <p className="work_text">Client was starting a mininistry raising funds to support orphans in Africa. The site needed to clearly convey what they were seeking to accomplish and attract donors.</p>
               <p className="work_subheader">Technologies Used:</p>
               <p className="work_text">Sketch for design; Ruby on Rails and Bootstrap for development</p>
-              <p className="work_text"><a href="http://matumainismission.org">View Site</a></p>
+              <p className="work_text"><a href="http://matumainismission.org" target="_blank">View Site</a></p>
             </div>
           </div>
         </div>
